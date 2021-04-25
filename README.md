@@ -7,3 +7,4 @@ Use the below commands to check few things:
 3. `docker run -p 5000:5000 jedidiahjeyaraj/dockertest:1.0` to run the build docker image
 4. If building using docker-compose use `docker-compose up`
 5. To enter into a particular docker container using shell use `docker exec -it {container_id} /bin/bash`
+6. To Create a volume use `docker volume create {volume_name}`
